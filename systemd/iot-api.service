@@ -1,1 +1,18 @@
-W1VuaXRdCkRlc2NyaXB0aW9uPUxvY2FsIGF1dGhlbnRpY2F0ZWQgVHV5YSBJb1QgQVBJCkFmdGVyPW5ldHdvcmstb25saW5lLnRhcmdldApXYW50cz1uZXR3b3JrLW9ubGluZS50YXJnZXQKCltTZXJ2aWNlXQpUeXBlPXNpbXBsZQpXb3JraW5nRGlyZWN0b3J5PSVoL3Byb2plY3QvcG93ZXItdHV5YQpFeGVjU3RhcnQ9JWgvcHJvamVjdC9wb3dlci10dXlhLy52ZW52L2Jpbi9weXRob24gJWgvcHJvamVjdC9wb3dlci10dXlhL2lvdF9hcGkucHkKRW52aXJvbm1lbnQ9UFlUSE9ORE9OVFdSSVRFQllURUNPREU9MQpSZXN0YXJ0PW9uLWZhaWx1cmUKUmVzdGFydFNlYz0zClRpbWVvdXRTdG9wU2VjPTEwClVNYXNrPTAwNzcKTm9OZXdQcml2aWxlZ2VzPXRydWUKCltJbnN0YWxsXQpXYW50ZWRCeT1kZWZhdWx0LnRhcmdldAo=
+[Unit]
+Description=Local authenticated Tuya IoT API
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/project/power-tuya
+ExecStart=%h/project/power-tuya/.venv/bin/python %h/project/power-tuya/iot_api.py
+Environment=PYTHONDONTWRITEBYTECODE=1
+Restart=on-failure
+RestartSec=3
+TimeoutStopSec=10
+UMask=0077
+NoNewPrivileges=true
+
+[Install]
+WantedBy=default.target

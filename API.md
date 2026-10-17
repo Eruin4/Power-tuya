@@ -1,1 +1,196 @@
-IyBMb2NhbCBJb1QgQVBJCgpCYXNlIFVSTDogYGh0dHA6Ly8xMjcuMC4wLjE6ODA5MWAuIFRoaXMgYmluZHMgb25seSB0byB0aGlzIHNlcnZlcidzIGxvb3BiYWNrCmludGVyZmFjZS4gVGhlIGhhcmR3YXJlIG1vbml0b3IgcmVtYWlucyBvbiBwb3J0IDgwODguCgpUaGUgQVBJIG93bnMgbm9ybWFsIFR1eWEgTEFOIGFjY2Vzcy4gYGJpbi9pb3QtY29udHJvbGAsIGBiaW4vbGlnaHQtY29udHJvbGAsCmBiaW4vdHV5YS1jb250cm9sIC4uLiBzdGF0dXMvb24vb2ZmYCwgYW5kIHRoZSBjZWlsaW5nIGRpYWxvZyBjYWxsIHRoaXMgQVBJLgpUaGUgZXhpc3RpbmcgY29tcHV0ZXItbW9uaXRvcmluZyBzY2hlZHVsZSBhbmQgZGVza3RvcCBjb25maXJtYXRpb24gZmxvdyByZW1haW4KaW4gYG1vbml0b3ItcG93ZXIuc2hgIGFuZCBgY2VpbGluZ19wcm9tcHQucHlgLgoKIyMgVGFyZ2V0cwoKfCBUYXJnZXQgfCBEZXZpY2UgfCBNZWFuaW5nIHwKfCAtLS0gfCAtLS0gfCAtLS0gfAp8IGBtb25pdG9yLXBsdWdgIHwgMTkyLjE2OC4wLjk2IHwgTW9uaXRvciBwb3dlciB8CnwgYGJlZHJvb20tbGlnaHRgIHwgMTkyLjE2OC4wLjEwNiB8IEJlZHJvb20gbGlnaHQgfAp8IGBjZWlsaW5nLXVwcGVyYCB8IDE5Mi4xNjguMC4xMDQgfCBDZWlsaW5nIHN3aXRjaCAxIHwKfCBgY2VpbGluZy1sb3dlcmAgfCAxOTIuMTY4LjAuMTA0IHwgQ2VpbGluZyBzd2l0Y2ggMiB8CnwgYGNlaWxpbmctYWxsYCB8IDE5Mi4xNjguMC4xMDQgfCBCb3RoIGNlaWxpbmcgc3dpdGNoZXMgfAoKVGFyZ2V0cyBhcmUgZXhwbGljaXRseSByZWdpc3RlcmVkIGluIGBpb3RfcmVnaXN0cnkucHlgLiBUaGUgQVBJIGRvZXMgbm90IGFjY2VwdAphcmJpdHJhcnkgSVAgYWRkcmVzc2VzLCBkZXZpY2UgSURzLCBjcmVkZW50aWFscywgb3IgcmF3IHN3aXRjaCBkYXRhIHBvaW50cy4KCiMjIEF1dGhlbnRpY2F0aW9uIGFuZCByb3V0ZXMKClNlbmQgYEF1dGhvcml6YXRpb246IEJlYXJlciA8dG9rZW4+YCBvbiBhbGwgZGV2aWNlIHJvdXRlcy4gVGhlIHRva2VuIGlzIHN0b3JlZAppbiBgfi8uY29uZmlnL3R1eWEtYXV0b21hdGlvbi9hcGkudG9rZW5gIHdpdGggbW9kZSA2MDAuIExvY2FsIGNvbW1hbmQgY2xpZW50cwpyZWFkIHRoaXMgZmlsZSBhdXRvbWF0aWNhbGx5LiBSZXNwb25zZXMgYW5kIGxvZ3MgbmV2ZXIgY29udGFpbiB0aGUgdG9rZW4gb3IKVHV5YSBsb2NhbCBrZXlzLiBCcm93c2VyIG9yaWdpbnMgYXJlIHJlamVjdGVkOyB0aGVyZSBpcyBubyBDT1JTIGFjY2Vzcy4KCnwgTWV0aG9kIHwgUGF0aCB8IFJlcXVlc3QgLyByZXNwb25zZSB8CnwgLS0tIHwgLS0tIHwgLS0tIHwKfCBHRVQgfCBgL2hlYWx0aGAgfCBBUEkgbGl2ZW5lc3M7IG5vIHRva2VuIHJlcXVpcmVkOyBkb2VzIG5vdCBjb250YWN0IGhhcmR3YXJlIHwKfCBHRVQgfCBgL3YxL2RldmljZXNgIHwgUmVnaXN0ZXJlZCB0YXJnZXRzIGFuZCBzdXBwb3J0ZWQgYWN0aW9ucyB8CnwgR0VUIHwgYC92MS9kZXZpY2VzL3t0YXJnZXR9L3N0YXRlYCB8IFJlYWQgY3VycmVudCBkZXZpY2UgcG93ZXIgfAp8IFBVVCB8IGAvdjEvZGV2aWNlcy97dGFyZ2V0fS9zdGF0ZWAgfCBKU09OIGB7InBvd2VyIjoib24ifWAgb3IgYHsicG93ZXIiOiJvZmYifWAgfAoKUFVUIHJlcXVpcmVzIGBDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2pzb25gLiBTdWNjZXNzZnVsIHBvd2VyIHJlc3BvbnNlczoKCmBgYGpzb24KeyJvayI6dHJ1ZSwidGFyZ2V0IjoiYmVkcm9vbS1saWdodCIsInBvd2VyIjoib2ZmIiwiY2hhbmdlZCI6dHJ1ZX0KYGBgCgpDZWlsaW5nIHJlc3BvbnNlcyBhbHNvIGNvbnRhaW4gYGNoYW5uZWxzYCwgZS5nLiBgeyIxIjoib24iLCIyIjoib2ZmIn1gLgpgY2VpbGluZy1hbGxgIHJlcG9ydHMgYHBvd2VyOiAibWl4ZWQiYCBpZiBvbmx5IG9uZSBjaGFubmVsIGlzIG9uLgpTdGF0dXMgcmVhZHMgcmVwb3J0IGBjaGFuZ2VkOiBmYWxzZWAuIFJlcGVhdGluZyBhIHJlcXVlc3RlZCBzdGF0ZSBpcyBzYWZlIGFuZApkb2VzIG5vdCB0b2dnbGUgdGhlIGRldmljZS4gQSBjaGFuZ2UgaXMgc3VjY2Vzc2Z1bCBvbmx5IGFmdGVyIHRoZSBzdGF0ZSBpcyByZWFkCmJhY2sgYW5kIGNvbmZpcm1lZC4KCkV4YW1wbGUgZnJvbSBQeXRob24sIHJ1bm5pbmcgb24gdGhpcyBzZXJ2ZXIgd2l0aCB0aGUgcHJvamVjdCBvbiBpdHMgaW1wb3J0IHBhdGg6CgpgYGBweXRob24KZnJvbSBpb3RfY2xpZW50IGltcG9ydCByZXF1ZXN0CnByaW50KHJlcXVlc3QoJ3N0YXR1cycsICdiZWRyb29tLWxpZ2h0JykpCnByaW50KHJlcXVlc3QoJ29mZicsICdiZWRyb29tLWxpZ2h0JykpCmBgYAoKRXF1aXZhbGVudCBIVFRQIHJlcXVlc3QgKHN1YnN0aXR1dGUgdGhlIHByaXZhdGUgdG9rZW4gaW4geW91ciBIVFRQIGNsaWVudCk6CgpgYGBodHRwClBVVCAvdjEvZGV2aWNlcy9iZWRyb29tLWxpZ2h0L3N0YXRlIEhUVFAvMS4xCkhvc3Q6IDEyNy4wLjAuMTo4MDkxCkF1dGhvcml6YXRpb246IEJlYXJlciA8dG9rZW4+CkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vanNvbgpDb250ZW50LUxlbmd0aDogMTUKCnsicG93ZXIiOiJvZmYifQpgYGAKCiMjIENvbW1hbmQgY2xpZW50cwoKYGBgYmFzaApiaW4vaW90LWNvbnRyb2wgbGlzdApiaW4vaW90LWNvbnRyb2wgc3RhdHVzIGNlaWxpbmctYWxsCmJpbi9pb3QtY29udHJvbCBvbiBjZWlsaW5nLXVwcGVyCmJpbi9pb3QtY29udHJvbCBvZmYgYmVkcm9vbS1saWdodAoKIyBFeGlzdGluZyBhdXRvbWF0aW9uIGNvbW1hbmRzIHJldGFpbiB0aGVpciBzeW50YXg6CmJpbi9saWdodC1jb250cm9sIG9mZiBiZWRyb29tLWxpZ2h0CmJpbi90dXlhLWNvbnRyb2wgbW9uaXRvci1wbHVnIHN0YXR1cwpgYGAKCmBJT1RfQVBJX1VSTGAgb3ZlcnJpZGVzIHRoZSBjbGllbnRzJyBVUkwgZm9yIGEgZGlmZmVyZW50IGxvY2FsIHBvcnQuIFRoZSBzZXJ2aWNlCnBvcnQgaXMgc2VsZWN0ZWQgYnkgYGlvdF9hcGkucHkgLS1wb3J0YC4gTm9ybWFsIGNvbW1hbmRzIHVzZSB0aGUgc2VydmVyJ3MgZGV2aWNlCmNvbmZpZ3VyYXRpb247IHRoZXkgY2Fubm90IHNlbGVjdCB0aGVpciBvd24gYC0tY29uZmlnYCBmaWxlLiBNYWludGVuYW5jZSBjb21tYW5kcwooYHNldHVwYCwgYHNjYW5gLCBgaW1wb3J0LXdpemFyZGAsIGBkaWFnbm9zZWApIHN0aWxsIHVzZSB0aGUgbG9jYWwgVHV5YSB0b29scy4KCiMjIENvbmN1cnJlbmN5LCBmYWlsdXJlcywgYW5kIGNyZWRlbnRpYWxzCgpPbmx5IG9uZSBvcGVyYXRpb24gY2FuIHJ1biBvbiBlYWNoIHBoeXNpY2FsIGRldmljZSBhdCBhIHRpbWUuIEFsbCB0aHJlZSBjZWlsaW5nCnRhcmdldHMgc2hhcmUgb25lIGxvY2suIEluZGVwZW5kZW50IGRldmljZXMgY2FuIHJ1biBjb25jdXJyZW50bHkuIEVhY2ggb3BlcmF0aW9uCnJ1bnMgaW4gYSBzZXBhcmF0ZSB3b3JrZXIgd2l0aCBhIDQwLXNlY29uZCBkZWFkbGluZTsgdGltZWQtb3V0IHdvcmtlcnMgYXJlIGtpbGxlZAphbmQgdGhlaXIgbG9jayBpcyByZWxlYXNlZC4gQ2xpZW50cyB3YWl0IHVwIHRvIDQ1IHNlY29uZHMgcGVyIEhUVFAgcmVxdWVzdC4KCkVycm9ycyByZXR1cm4gSlNPTiBgeyJvayI6ZmFsc2UsImVycm9yIjoiLi4uIn1gOgoKfCBIVFRQIHwgTWVhbmluZyB8CnwgLS0tIHwgLS0tIHwKfCA0MDAgLyA0MTUgfCBJbnZhbGlkIHJlcXVlc3QgLyBKU09OIGNvbnRlbnQgdHlwZSByZXF1aXJlZCB8CnwgNDAxIHwgTWlzc2luZyBvciBpbmNvcnJlY3QgQVBJIHRva2VuIHwKfCA0MDMgfCBCcm93c2VyIE9yaWdpbiBoZWFkZXIgaXMgbm90IGFsbG93ZWQgfAp8IDQwNCAvIDQwNSB8IFVua25vd24gcm91dGUgb3IgdGFyZ2V0IC8gdW5zdXBwb3J0ZWQgbWV0aG9kIHwKfCA0MDkgfCBEZXZpY2UgYnVzeTsgcmV0cnkgYWZ0ZXIgdGhlIGFjdGl2ZSBvcGVyYXRpb24gZmluaXNoZXMgfAp8IDQyMiB8IE1pc3Npbmcgb3IgaW52YWxpZCBwcml2YXRlIGRldmljZSBjb25maWd1cmF0aW9uIHwKfCA1MDIgfCBEZXZpY2Ugb3BlcmF0aW9uIGZhaWxlZCBvciBzdGF0ZSBjb3VsZCBub3QgYmUgdmVyaWZpZWQgfAp8IDUwMyB8IFdvcmtlciBjb3VsZCBub3QgcnVuIG9yIHJldHVybmVkIGFuIGludmFsaWQgcmVzcG9uc2UgfAp8IDUwNCB8IERldmljZSBvcGVyYXRpb24gZXhjZWVkZWQgdGhlIGRlYWRsaW5lIHwKCkEgZmFpbGVkIG9yIHRpbWVkLW91dCB3cml0ZSBtYXkgaGF2ZSByZWFjaGVkIHRoZSBkZXZpY2UuIFJlYWQgdGhlIGN1cnJlbnQgc3RhdGUKYmVmb3JlIGRlY2lkaW5nIHdoYXQgdG8gZG8gbmV4dDsgb24vb2ZmIG9wZXJhdGlvbnMgYXJlIGlkZW1wb3RlbnQuIFRoZSBleGlzdGluZwptb25pdG9yIHJldHJpZXMgZmFpbGVkIG9wZXJhdGlvbnMgb24gaXRzIG5leHQgcG9sbC4gQSBzdWNjZXNzZnVsIG1hbnVhbCBjb21tYW5kCmRvZXMgbm90IGRpc2FibGUgZnV0dXJlIGF1dG9tYXRpb24gdHJhbnNpdGlvbnMuCgpEZXZpY2UgY29uZmlndXJhdGlvbiByZW1haW5zIGluIGB+Ly5jb25maWcvdHV5YS1hdXRvbWF0aW9uL2RldmljZXMuanNvbmAgKG1vZGUKNjAwKS4gV29ya2VycyByZXJlYWQgaXQgZm9yIGV2ZXJ5IHJlcXVlc3QsIHNvIHVwZGF0ZWQgbG9jYWwga2V5cyB0YWtlIGVmZmVjdAp3aXRob3V0IHJlc3RhcnRpbmcgdGhlIEFQSS4gRGV2aWNlIHJlLXBhaXJpbmcgY2FuIGNoYW5nZSBhIGxvY2FsIGtleTsgcmVmcmVzaAp0aGUgYWZmZWN0ZWQgZW50cnkgZnJvbSB0aGUgVHV5YSBhY2NvdW50IHdoZW4gdGhhdCBoYXBwZW5zLiBUaGUgQVBJIGRvZXMgbm90CmF1dG9tYXRpY2FsbHkgcmVmcmVzaCBrZXlzIG9yIHJlcXVpcmUgdGhlIGNsb3VkIGZvciBub3JtYWwgb3BlcmF0aW9uLgoKYGFwaS50b2tlbmAgaXMgYSBsb2NhbGx5IGdlbmVyYXRlZCBiZWFyZXIgdG9rZW4gZm9yIHRoaXMgSFRUUCBzZXJ2ZXIuIEl0IGlzCm5vdCBhIFR1eWEgY2xvdWQgYWNjZXNzIHRva2VuIGFuZCBoYXMgbm8gVHV5YSBJb1QgQ29yZSBleHBpcnkgb3IgcmVmcmVzaCBjYWxsLgpUaGUgbW9uaXRvcidzIGJlZHJvb20tbGlnaHQgY29tbWFuZCBhbmQgY2VpbGluZyBjb25maXJtYXRpb24gZGlhbG9nIHVzZSB0aGlzCkFQSSwgd2hvc2Ugd29ya2VycyB1c2UgdGhlIGNvbmZpZ3VyZWQgSVAgYWRkcmVzc2VzIGFuZCBsb2NhbCBrZXlzIG92ZXIgTEFOLgpUaGUgbWFudWFsIGBweXRob24gLW0gdGlueXR1eWEgd2l6YXJkYCBwcm92aXNpb25pbmcgc3RlcCBpbiBTRVRVUC5tZCBjb250YWN0cwp0aGUgVHV5YSBjbG91ZCB0byBvYnRhaW4gbG9jYWwga2V5cyBhbmQgb3B0aW9uYWwgRFAgbWFwcGluZ3MuIFJ1biBpdCBvbmx5IHdoZW4KcHJvdmlzaW9uaW5nIG9yIHJlZnJlc2hpbmcga2V5czsgYXV0b21hdGlvbiBkb2VzIG5vdCBpbnZva2UgaXQuCgpUbyB2ZXJpZnkgdGhlIGxpZ2h0cy1vZmYgcGF0aHMgd2l0aG91dCBjb250YWN0aW5nIHJlYWwgZGV2aWNlcyBvciB0aGUgY2xvdWQsCnJ1biBgLnZlbnYvYmluL3B5dGhvbiAtbSB1bml0dGVzdCAtdiB0ZXN0X2xvY2FsX3J1bnRpbWVgIGZyb20gdGhlIHByb2plY3Qgcm9vdC4KVGhlIHJlZ3Jlc3Npb24gdXNlcyBwcml2YXRlIGR1bW15IGNyZWRlbnRpYWxzLCBibG9ja3MgZXh0ZXJuYWwgbmV0d29ya2luZyBpbgp0aGUgUHl0aG9uIGNoaWxkcmVuLCBhbmQgc2ltdWxhdGVzIGRldmljZSBzb2NrZXRzIGJlbG93IFRpbnlUdXlhJ3MgZW5jcnlwdGlvbgpib3VuZGFyeS4gSXQgYWxzbyBjaGVja3MgdGhlIHdhdGNoZXIgdHJhbnNpdGlvbnMgYW5kIGNlaWxpbmcgZGlhbG9nIGRlY2lzaW9ucy4KVGhlIEdVSSBjaGlsZCBpcyBzaW11bGF0ZWQgYnkgaXRzIGV4aXQgY29kZTsgY291bnRkb3duIHRpbWluZyBhbmQgYnV0dG9uL2Nsb3NlCmJlaGF2aW9yIGFyZSBjb3ZlcmVkIHNlcGFyYXRlbHkgYnkgYHRlc3RfY2VpbGluZ19kaWFsb2dgLgoKIyMgUm9vbSB0ZW1wZXJhdHVyZSBhbmQgaHVtaWRpdHkKClRoZSBbaGFyZHdhcmUgZGFzaGJvYXJkXSguLi9zZXJ2ZXItc3RhdHVzL1JFQURNRS1LTy5tZCkgcmVhZHMgdGhlIFNtYXJ0IElSCnNlbnNvciBkaXJlY3RseSBvdmVyIFR1eWEgTEFOIDMuNSBhdCBgMTkyLjE2OC4wLjEwNTo2NjY4YC4gSXQgaXMgbm90IGEgcG93ZXIKdGFyZ2V0IHJlZ2lzdGVyZWQgaW4gdGhpcyBBUEkuIERQIDEwMSBpcyB0ZW1wZXJhdHVyZSBpbiB0ZW50aHMgb2YgYSBkZWdyZWUKQ2Vsc2l1czsgRFAgMTAyIGlzIHJlbGF0aXZlIGh1bWlkaXR5IGluIHBlcmNlbnQuIFRoZSBkYXNoYm9hcmQgcG9sbHMgZXZlcnkKMzAgc2Vjb25kcyBhbmQgaGlkZXMgbWVhc3VyZW1lbnRzIGFmdGVyIDEyMCBzZWNvbmRzIHdpdGhvdXQgYSBzdWNjZXNzZnVsIHJlYWQuCgpJdHMgc2Vuc29yLW9ubHkgY29uZmlndXJhdGlvbiBpcyBgfi8uY29uZmlnL3R1eWEtYXV0b21hdGlvbi9yb29tLXNlbnNvci5qc29uYAoodXNlci1vd25lZCwgbW9kZSA2MDApLCBtb3VudGVkIHJlYWQtb25seSBhdCBgL3J1bi9zZWNyZXRzL3Jvb21fc2Vuc29yYC4gVGhlCmRhc2hib2FyZCBkb2VzIG5vdCBtb3VudCB0aGUgZm9ybWVyIGNsb3VkIGNyZWRlbnRpYWwgZmlsZSBvciBjYWxsIFR1eWEgQ2xvdWQuClRoZSBMQU4gZ3VhcmQgcGVybWl0cyB0aGUgc2Vuc29yJ3MgVENQIDY2NjggY29ubmVjdGlvbiBmcm9tIHRoZSBob3N0IGFuZCB0aGUKZGFzaGJvYXJkIERvY2tlciBuZXR3b3JrIChgMTcyLjE5LjAuMC8xNmApOyBvdGhlciBMQU4gcmVzdHJpY3Rpb25zIHJlbWFpbi4KCiMjIEluc3RhbGwgYW5kIG9wZXJhdGUKClRoZSBleGlzdGluZyBgLnZlbnZgIGFuZCBUaW55VHV5YSBpbnN0YWxsYXRpb24gYXJlIHVzZWQ7IG5vIG5ldyBkZXBlbmRlbmNpZXMuClJ1biBmcm9tIGAvaG9tZS9lcnVpbi9wcm9qZWN0L3Bvd2VyLXR1eWFgOgoKYGBgYmFzaAojIENyZWF0ZSBhIHRva2VuIG9uY2U7IGV4aXN0aW5nIHRva2VucyBhcmUgcHJlc2VydmVkLgoudmVudi9iaW4vcHl0aG9uIC0gPDwnUFknCmltcG9ydCBvcywgc2VjcmV0cwpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKcCA9IFBhdGguaG9tZSgpIC8gJy5jb25maWcvdHV5YS1hdXRvbWF0aW9uL2FwaS50b2tlbicKcC5wYXJlbnQubWtkaXIocGFyZW50cz1UcnVlLCBleGlzdF9vaz1UcnVlKQppZiBub3QgcC5leGlzdHMoKToKICAgIGZkID0gb3Mub3BlbihwLCBvcy5PX1dST05MWSB8IG9zLk9fQ1JFQVQgfCBvcy5PX0VYQ0wsIDBvNjAwKQogICAgd2l0aCBvcy5mZG9wZW4oZmQsICd3JykgYXMgZjoKICAgICAgICBmLndyaXRlKHNlY3JldHMudG9rZW5faGV4KDMyKSArICdcbicpClBZCmNobW9kICt4IGJpbi9pb3QtY29udHJvbAppbnN0YWxsIC1tIDY0NCBzeXN0ZW1kL2lvdC1hcGkuc2VydmljZSB+Ly5jb25maWcvc3lzdGVtZC91c2VyLwpta2RpciAtcCB+Ly5jb25maWcvc3lzdGVtZC91c2VyL2VydWluLW1vbml0b3ItcG93ZXIuc2VydmljZS5kCmluc3RhbGwgLW0gNjQ0IHN5c3RlbWQvZXJ1aW4tbW9uaXRvci1wb3dlci5zZXJ2aWNlLmQvaW90LWFwaS5jb25mIFwKICB+Ly5jb25maWcvc3lzdGVtZC91c2VyL2VydWluLW1vbml0b3ItcG93ZXIuc2VydmljZS5kLwpzeXN0ZW1jdGwgLS11c2VyIGRhZW1vbi1yZWxvYWQKc3lzdGVtY3RsIC0tdXNlciBlbmFibGUgLS1ub3cgaW90LWFwaS5zZXJ2aWNlCmJpbi9pb3QtY29udHJvbCBsaXN0CmBgYAoKVGhlIG1vbml0b3IncyBgV2FudHNgL2BBZnRlcmAgZGVwZW5kZW5jeSBzdGFydHMgdGhlIEFQSSBmaXJzdCBvbiBmdXR1cmUgc3RhcnR1cC4KRXhpc3RpbmcgcnVubmluZyB3YXRjaGVyIHByb2Nlc3NlcyBwaWNrIHVwIHRoZSBjbGllbnQgbWlncmF0aW9uIG9uIHRoZWlyIG5leHQKY29tbWFuZDsgYSB3YXRjaGVyIHJlc3RhcnQgaXMgbm90IHJlcXVpcmVkIGZvciB0aGlzIG1pZ3JhdGlvbi4gVGhlIG1vcm5pbmctbGlnaHQKc2VydmljZSBleGFtcGxlIGFsc28gc3RhcnRzIGFmdGVyIHRoZSBBUEkuCgpgYGBiYXNoCnN5c3RlbWN0bCAtLXVzZXIgc3RhdHVzIGlvdC1hcGkuc2VydmljZQpqb3VybmFsY3RsIC0tdXNlciAtdSBpb3QtYXBpLnNlcnZpY2UgLW4gMzAgLS1uby1wYWdlcgpzeXN0ZW1jdGwgLS11c2VyIHJlc3RhcnQgaW90LWFwaS5zZXJ2aWNlCi52ZW52L2Jpbi9weXRob24gLUIgLW0gdW5pdHRlc3QgZGlzY292ZXIgLXYKYGBgCgpUaGUgQVBJIHN0YXJ0cyB3aXRoIHRoZSB1c2VyJ3Mgc3lzdGVtZCBzZXNzaW9uLiBTdGFydGluZyBpdCBiZWZvcmUgbG9naW4gcmVxdWlyZXMKdXNlciBsaW5nZXJpbmcgdG8gYmUgZW5hYmxlZCBvbiB0aGUgaG9zdC4gYC9oZWFsdGhgIGNoZWNrcyBzZXJ2aWNlIGxpdmVuZXNzOwpxdWVyeSBhIGRldmljZSdzIHN0YXRlIHRvIGNoZWNrIGl0cyBhY3R1YWwgYXZhaWxhYmlsaXR5LgoKUHJlLW1pZ3JhdGlvbiBjb3BpZXMgb2YgdGhlIHRocmVlIGNvbnRyb2wgbW9kdWxlcyBhbmQgZG9jdW1lbnRhdGlvbiBhcmUgaW4KYGJhY2t1cHMvcHJlLWlvdC1hcGkvYC4gVG8gcmV2ZXJ0LCByZXN0b3JlIHRob3NlIG1vZHVsZXMsIHJlbW92ZSB0aGUgbW9uaXRvcidzCmBpb3QtYXBpLmNvbmZgIGRlcGVuZGVuY3ksIGFuZCBkaXNhYmxlIGBpb3QtYXBpLnNlcnZpY2VgLiBBdm9pZCByZXZlcnRpbmcgdGhlCmRldmljZSBjb25maWd1cmF0aW9uOiBpdCBpbmNsdWRlcyB0aGUgcmVwYWlyZWQgYmVkcm9vbS1saWdodCBrZXkuCg==
+# Local IoT API
+
+Base URL: `http://127.0.0.1:8091`. This binds only to this server's loopback
+interface. The hardware monitor remains on port 8088.
+
+The API owns normal Tuya LAN access. `bin/iot-control`, `bin/light-control`,
+`bin/tuya-control ... status/on/off`, and the ceiling dialog call this API.
+The existing computer-monitoring schedule and desktop confirmation flow remain
+in `monitor-power.sh` and `ceiling_prompt.py`.
+
+## Targets
+
+| Target | Device | Meaning |
+| --- | --- | --- |
+| `monitor-plug` | 192.168.0.96 | Monitor power |
+| `bedroom-light` | 192.168.0.106 | Bedroom light |
+| `ceiling-upper` | 192.168.0.104 | Ceiling switch 1 |
+| `ceiling-lower` | 192.168.0.104 | Ceiling switch 2 |
+| `ceiling-all` | 192.168.0.104 | Both ceiling switches |
+
+Targets are explicitly registered in `iot_registry.py`. The API does not accept
+arbitrary IP addresses, device IDs, credentials, or raw switch data points.
+
+## Authentication and routes
+
+Send `Authorization: Bearer <token>` on all device routes. The token is stored
+in `~/.config/tuya-automation/api.token` with mode 600. Local command clients
+read this file automatically. Responses and logs never contain the token or
+Tuya local keys. Browser origins are rejected; there is no CORS access.
+
+| Method | Path | Request / response |
+| --- | --- | --- |
+| GET | `/health` | API liveness; no token required; does not contact hardware |
+| GET | `/v1/devices` | Registered targets and supported actions |
+| GET | `/v1/devices/{target}/state` | Read current device power |
+| PUT | `/v1/devices/{target}/state` | JSON `{"power":"on"}` or `{"power":"off"}` |
+
+PUT requires `Content-Type: application/json`. Successful power responses:
+
+```json
+{"ok":true,"target":"bedroom-light","power":"off","changed":true}
+```
+
+Ceiling responses also contain `channels`, e.g. `{"1":"on","2":"off"}`.
+`ceiling-all` reports `power: "mixed"` if only one channel is on.
+Status reads report `changed: false`. Repeating a requested state is safe and
+does not toggle the device. A change is successful only after the state is read
+back and confirmed.
+
+Example from Python, running on this server with the project on its import path:
+
+```python
+from iot_client import request
+print(request('status', 'bedroom-light'))
+print(request('off', 'bedroom-light'))
+```
+
+Equivalent HTTP request (substitute the private token in your HTTP client):
+
+```http
+PUT /v1/devices/bedroom-light/state HTTP/1.1
+Host: 127.0.0.1:8091
+Authorization: Bearer <token>
+Content-Type: application/json
+Content-Length: 15
+
+{"power":"off"}
+```
+
+## Command clients
+
+```bash
+bin/iot-control list
+bin/iot-control status ceiling-all
+bin/iot-control on ceiling-upper
+bin/iot-control off bedroom-light
+
+# Existing automation commands retain their syntax:
+bin/light-control off bedroom-light
+bin/tuya-control monitor-plug status
+```
+
+`IOT_API_URL` overrides the clients' URL for a different local port. The service
+port is selected by `iot_api.py --port`. Normal commands use the server's device
+configuration; they cannot select their own `--config` file. Maintenance commands
+(`setup`, `scan`, `import-wizard`, `diagnose`) still use the local Tuya tools.
+
+## Concurrency, failures, and credentials
+
+Only one operation can run on each physical device at a time. All three ceiling
+targets share one lock. Independent devices can run concurrently. Each operation
+runs in a separate worker with a 40-second deadline; timed-out workers are killed
+and their lock is released. Clients wait up to 45 seconds per HTTP request.
+
+Errors return JSON `{"ok":false,"error":"..."}`:
+
+| HTTP | Meaning |
+| --- | --- |
+| 400 / 415 | Invalid request / JSON content type required |
+| 401 | Missing or incorrect API token |
+| 403 | Browser Origin header is not allowed |
+| 404 / 405 | Unknown route or target / unsupported method |
+| 409 | Device busy; retry after the active operation finishes |
+| 422 | Missing or invalid private device configuration |
+| 502 | Device operation failed or state could not be verified |
+| 503 | Worker could not run or returned an invalid response |
+| 504 | Device operation exceeded the deadline |
+
+A failed or timed-out write may have reached the device. Read the current state
+before deciding what to do next; on/off operations are idempotent. The existing
+monitor retries failed operations on its next poll. A successful manual command
+does not disable future automation transitions.
+
+Device configuration remains in `~/.config/tuya-automation/devices.json` (mode
+600). Workers reread it for every request, so updated local keys take effect
+without restarting the API. Device re-pairing can change a local key; refresh
+the affected entry from the Tuya account when that happens. The API does not
+automatically refresh keys or require the cloud for normal operation.
+
+`api.token` is a locally generated bearer token for this HTTP server. It is
+not a Tuya cloud access token and has no Tuya IoT Core expiry or refresh call.
+The monitor's bedroom-light command and ceiling confirmation dialog use this
+API, whose workers use the configured IP addresses and local keys over LAN.
+The manual `python -m tinytuya wizard` provisioning step in SETUP.md contacts
+the Tuya cloud to obtain local keys and optional DP mappings. Run it only when
+provisioning or refreshing keys; automation does not invoke it.
+
+To verify the lights-off paths without contacting real devices or the cloud,
+run `.venv/bin/python -m unittest -v test_local_runtime` from the project root.
+The regression uses private dummy credentials, blocks external networking in
+the Python children, and simulates device sockets below TinyTuya's encryption
+boundary. It also checks the watcher transitions and ceiling dialog decisions.
+The GUI child is simulated by its exit code; countdown timing and button/close
+behavior are covered separately by `test_ceiling_dialog`.
+
+## Room temperature and humidity
+
+The [hardware dashboard](../server-status/README-KO.md) reads the Smart IR
+sensor directly over Tuya LAN 3.5 at `192.168.0.105:6668`. It is not a power
+target registered in this API. DP 101 is temperature in tenths of a degree
+Celsius; DP 102 is relative humidity in percent. The dashboard polls every
+30 seconds and hides measurements after 120 seconds without a successful read.
+
+Its sensor-only configuration is `~/.config/tuya-automation/room-sensor.json`
+(user-owned, mode 600), mounted read-only at `/run/secrets/room_sensor`. The
+dashboard does not mount the former cloud credential file or call Tuya Cloud.
+The LAN guard permits the sensor's TCP 6668 connection from the host and the
+dashboard Docker network (`172.19.0.0/16`); other LAN restrictions remain.
+
+## Install and operate
+
+The existing `.venv` and TinyTuya installation are used; no new dependencies.
+Run from `/home/eruin/project/power-tuya`:
+
+```bash
+# Create a token once; existing tokens are preserved.
+.venv/bin/python - <<'PY'
+import os, secrets
+from pathlib import Path
+p = Path.home() / '.config/tuya-automation/api.token'
+p.parent.mkdir(parents=True, exist_ok=True)
+if not p.exists():
+    fd = os.open(p, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o600)
+    with os.fdopen(fd, 'w') as f:
+        f.write(secrets.token_hex(32) + '\n')
+PY
+chmod +x bin/iot-control
+install -m 644 systemd/iot-api.service ~/.config/systemd/user/
+mkdir -p ~/.config/systemd/user/eruin-monitor-power.service.d
+install -m 644 systemd/eruin-monitor-power.service.d/iot-api.conf \
+  ~/.config/systemd/user/eruin-monitor-power.service.d/
+systemctl --user daemon-reload
+systemctl --user enable --now iot-api.service
+bin/iot-control list
+```
+
+The monitor's `Wants`/`After` dependency starts the API first on future startup.
+Existing running watcher processes pick up the client migration on their next
+command; a watcher restart is not required for this migration. The morning-light
+service example also starts after the API.
+
+```bash
+systemctl --user status iot-api.service
+journalctl --user -u iot-api.service -n 30 --no-pager
+systemctl --user restart iot-api.service
+.venv/bin/python -B -m unittest discover -v
+```
+
+The API starts with the user's systemd session. Starting it before login requires
+user lingering to be enabled on the host. `/health` checks service liveness;
+query a device's state to check its actual availability.
+
+Pre-migration copies of the three control modules and documentation are in
+`backups/pre-iot-api/`. To revert, restore those modules, remove the monitor's
+`iot-api.conf` dependency, and disable `iot-api.service`. Avoid reverting the
+device configuration: it includes the repaired bedroom-light key.

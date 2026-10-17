@@ -1,1 +1,4 @@
-IyEvYmluL3NoCnNldCAtZXUKUFJPSkVDVF9ESVI9JChDRFBBVEg9IGNkIC0tICIkKGRpcm5hbWUgLS0gIiQwIikvLi4iICYmIHB3ZCkKZXhlYyAiJFBST0pFQ1RfRElSLy52ZW52L2Jpbi9weXRob24iICIkUFJPSkVDVF9ESVIvdHV5YV9jb250cm9sLnB5IiAiJEAiCg==
+#!/bin/sh
+set -eu
+PROJECT_DIR=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+exec "$PROJECT_DIR/.venv/bin/python" "$PROJECT_DIR/tuya_control.py" "$@"

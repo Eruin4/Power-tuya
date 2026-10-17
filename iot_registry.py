@@ -1,1 +1,15 @@
-IiIiUHVibGljIG5hbWVzIGFuZCBwaHlzaWNhbC1kZXZpY2UgZ3JvdXBzOyBubyBjcmVkZW50aWFscyBiZWxvbmcgaGVyZS4iIiIKClRBUkdFVFMgPSB7CiAgICAnbW9uaXRvci1wbHVnJzogKCdtb25pdG9yLXBsdWcnLCAnTW9uaXRvciBwb3dlciBwbHVnJyksCiAgICAnYmVkcm9vbS1saWdodCc6ICgnYmVkcm9vbS1saWdodCcsICdCZWRyb29tIGxpZ2h0JyksCiAgICAnY2VpbGluZy11cHBlcic6ICgnY2VpbGluZy1zd2l0Y2gnLCAnVXBwZXIgY2VpbGluZyBsaWdodCcpLAogICAgJ2NlaWxpbmctbG93ZXInOiAoJ2NlaWxpbmctc3dpdGNoJywgJ0xvd2VyIGNlaWxpbmcgbGlnaHQnKSwKICAgICdjZWlsaW5nLWFsbCc6ICgnY2VpbGluZy1zd2l0Y2gnLCAnQm90aCBjZWlsaW5nIGxpZ2h0cycpLAp9CgoKZGVmIGRldmljZV9saXN0KCk6CiAgICByZXR1cm4gW3snbmFtZSc6IG5hbWUsICdsYWJlbCc6IGxhYmVsLCAnZGV2aWNlJzogZ3JvdXAsCiAgICAgICAgICAgICAnYWN0aW9ucyc6IFsnc3RhdHVzJywgJ29uJywgJ29mZiddfQogICAgICAgICAgICBmb3IgbmFtZSwgKGdyb3VwLCBsYWJlbCkgaW4gVEFSR0VUUy5pdGVtcygpXQo=
+"""Public names and physical-device groups; no credentials belong here."""
+
+TARGETS = {
+    'monitor-plug': ('monitor-plug', 'Monitor power plug'),
+    'bedroom-light': ('bedroom-light', 'Bedroom light'),
+    'ceiling-upper': ('ceiling-switch', 'Upper ceiling light'),
+    'ceiling-lower': ('ceiling-switch', 'Lower ceiling light'),
+    'ceiling-all': ('ceiling-switch', 'Both ceiling lights'),
+}
+
+
+def device_list():
+    return [{'name': name, 'label': label, 'device': group,
+             'actions': ['status', 'on', 'off']}
+            for name, (group, label) in TARGETS.items()]

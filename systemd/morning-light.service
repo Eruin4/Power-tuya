@@ -1,1 +1,11 @@
-W1VuaXRdCkRlc2NyaXB0aW9uPVR1cm4gb24gY29uZmlndXJlZCBUdXlhIG1vcm5pbmcgbGlnaHQgb25jZQpXYW50cz1pb3QtYXBpLnNlcnZpY2UKQWZ0ZXI9aW90LWFwaS5zZXJ2aWNlCgpbU2VydmljZV0KVHlwZT1vbmVzaG90CkVudmlyb25tZW50RmlsZT0laC8uY29uZmlnL3R1eWEtYXV0b21hdGlvbi9tb3JuaW5nLWxpZ2h0LmVudgpFeGVjU3RhcnQ9JWgvcHJvamVjdC9wb3dlci10dXlhL2Jpbi90dXlhLWNvbnRyb2wgcGx1ZyAke1RVWUFfTElHSFRfTkFNRX0gb24KVGltZW91dFN0YXJ0U2VjPTU1ClVNYXNrPTAwNzcK
+[Unit]
+Description=Turn on configured Tuya morning light once
+Wants=iot-api.service
+After=iot-api.service
+
+[Service]
+Type=oneshot
+EnvironmentFile=%h/.config/tuya-automation/morning-light.env
+ExecStart=%h/project/power-tuya/bin/tuya-control plug ${TUYA_LIGHT_NAME} on
+TimeoutStartSec=55
+UMask=0077

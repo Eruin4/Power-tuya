@@ -1,1 +1,5 @@
-IyEvYmluL3NoCnNldCAtZXUKU0NSSVBUPSQocmVhZGxpbmsgLWYgLS0gIiQwIikKUFJPSkVDVF9ESVI9JChDRFBBVEg9IGNkIC0tICIkKGRpcm5hbWUgLS0gIiRTQ1JJUFQiKS8uLiIgJiYgcHdkKQpleGVjICIkUFJPSkVDVF9ESVIvLnZlbnYvYmluL3B5dGhvbiIgIiRQUk9KRUNUX0RJUi9pb3RfY2xpZW50LnB5IiAiJEAiCg==
+#!/bin/sh
+set -eu
+SCRIPT=$(readlink -f -- "$0")
+PROJECT_DIR=$(CDPATH= cd -- "$(dirname -- "$SCRIPT")/.." && pwd)
+exec "$PROJECT_DIR/.venv/bin/python" "$PROJECT_DIR/iot_client.py" "$@"

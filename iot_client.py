@@ -1,1 +1,89 @@
-IiIiQXV0aGVudGljYXRlZCBsb2NhbCBBUEkgY2xpZW50LCBhbHNvIHVzZWQgYnkgdGhlIGV4aXN0aW5nIGNvbW1hbmQgd3JhcHBlcnMuIiIiCmltcG9ydCBhcmdwYXJzZQppbXBvcnQganNvbgppbXBvcnQgb3MKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCmltcG9ydCBzdGF0CmltcG9ydCB0aW1lCmltcG9ydCB1cmxsaWIuZXJyb3IKaW1wb3J0IHVybGxpYi5yZXF1ZXN0Cgpmcm9tIGlvdF9yZWdpc3RyeSBpbXBvcnQgVEFSR0VUUwoKVE9LRU5fUEFUSCA9IFBhdGguaG9tZSgpIC8gJy5jb25maWcvdHV5YS1hdXRvbWF0aW9uL2FwaS50b2tlbicKREVGQVVMVF9VUkwgPSAnaHR0cDovLzEyNy4wLjAuMTo4MDkxJwoKCmNsYXNzIEFQSUVycm9yKFJ1bnRpbWVFcnJvcik6CiAgICBkZWYgX19pbml0X18oc2VsZiwgY29kZSk6CiAgICAgICAgc2VsZi5jb2RlID0gY29kZQogICAgICAgIHN1cGVyKCkuX19pbml0X18oY29kZSkKCgpkZWYgcmVhZF90b2tlbihwYXRoPVRPS0VOX1BBVEgpOgogICAgd2l0aCBQYXRoKHBhdGgpLm9wZW4oKSBhcyBzdHJlYW06CiAgICAgICAgaW5mbyA9IG9zLmZzdGF0KHN0cmVhbS5maWxlbm8oKSkKICAgICAgICBpZiBub3Qgc3RhdC5TX0lTUkVHKGluZm8uc3RfbW9kZSkgb3IgaW5mby5zdF91aWQgIT0gb3MuZ2V0dWlkKCkgb3IgaW5mby5zdF9tb2RlICYgMG8wNzc6CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoJ0FQSSB0b2tlbiBtdXN0IGJlIHByaXZhdGUgYW5kIG93bmVkIGJ5IHRoZSBjdXJyZW50IHVzZXInKQogICAgICAgIHRva2VuID0gc3RyZWFtLnJlYWQoKS5zdHJpcCgpCiAgICBpZiBsZW4odG9rZW4pIDwgMzIgb3Igbm90IHRva2VuLmlzYXNjaWkoKSBvciBub3QgdG9rZW4uaXNhbG51bSgpOgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoJ0ludmFsaWQgQVBJIHRva2VuJykKICAgIHJldHVybiB0b2tlbgoKCmRlZiByZXF1ZXN0KGFjdGlvbiwgdGFyZ2V0PU5vbmUsICosIGJhc2VfdXJsPU5vbmUsIHRva2VuX3BhdGg9VE9LRU5fUEFUSCk6CiAgICBpZiBhY3Rpb24gbm90IGluICgnbGlzdCcsICdzdGF0dXMnLCAnb24nLCAnb2ZmJyk6CiAgICAgICAgcmFpc2UgQVBJRXJyb3IoJ2ludmFsaWQtYWN0aW9uJykKICAgIGlmIGFjdGlvbiAhPSAnbGlzdCcgYW5kIHRhcmdldCBub3QgaW4gVEFSR0VUUzoKICAgICAgICByYWlzZSBBUElFcnJvcigndW5rbm93bi1kZXZpY2UnKQogICAgdHJ5OgogICAgICAgIHRva2VuID0gcmVhZF90b2tlbih0b2tlbl9wYXRoKQogICAgZXhjZXB0IChPU0Vycm9yLCBWYWx1ZUVycm9yKToKICAgICAgICByYWlzZSBBUElFcnJvcignYXBpLXRva2VuLXVuYXZhaWxhYmxlJykgZnJvbSBOb25lCiAgICB1cmwgPSAoYmFzZV91cmwgb3Igb3MuZW52aXJvbi5nZXQoJ0lPVF9BUElfVVJMJywgREVGQVVMVF9VUkwpKS5yc3RyaXAoJy8nKQogICAgcGF0aCA9ICcvdjEvZGV2aWNlcycgaWYgYWN0aW9uID09ICdsaXN0JyBlbHNlIGYnL3YxL2RldmljZXMve3RhcmdldH0vc3RhdGUnCiAgICBkYXRhID0ganNvbi5kdW1wcyh7J3Bvd2VyJzogYWN0aW9ufSkuZW5jb2RlKCkgaWYgYWN0aW9uIGluICgnb24nLCAnb2ZmJykgZWxzZSBOb25lCiAgICByZXEgPSB1cmxsaWIucmVxdWVzdC5SZXF1ZXN0KHVybCArIHBhdGgsIGRhdGE9ZGF0YSwKICAgICAgICBtZXRob2Q9J1BVVCcgaWYgZGF0YSBlbHNlICdHRVQnLAogICAgICAgIGhlYWRlcnM9eydBdXRob3JpemF0aW9uJzogJ0JlYXJlciAnICsgdG9rZW4sICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbid9KQogICAgb3BlbmVyID0gdXJsbGliLnJlcXVlc3QuYnVpbGRfb3BlbmVyKHVybGxpYi5yZXF1ZXN0LlByb3h5SGFuZGxlcih7fSkpCiAgICBmb3IgYXR0ZW1wdCBpbiByYW5nZSgzKToKICAgICAgICB0cnk6CiAgICAgICAgICAgIHdpdGggb3BlbmVyLm9wZW4ocmVxLCB0aW1lb3V0PTQ1KSBhcyByZXNwb25zZToKICAgICAgICAgICAgICAgIHJlc3VsdCA9IGpzb24ubG9hZChyZXNwb25zZSkKICAgICAgICAgICAgaWYgbm90IGlzaW5zdGFuY2UocmVzdWx0LCBkaWN0KSBvciByZXN1bHQuZ2V0KCdvaycpIGlzIG5vdCBUcnVlOgogICAgICAgICAgICAgICAgcmFpc2UgQVBJRXJyb3IoJ2ludmFsaWQtYXBpLXJlc3BvbnNlJykKICAgICAgICAgICAgcmV0dXJuIHJlc3VsdAogICAgICAgIGV4Y2VwdCB1cmxsaWIuZXJyb3IuSFRUUEVycm9yIGFzIGVycm9yOgogICAgICAgICAgICAjIFN1cmZhY2Ugb25seSBBUEkgZXJyb3IgY29kZXMsIG5ldmVyIGFyYml0cmFyeSByZXNwb25zZSBib2RpZXMuCiAgICAgICAgICAgIGNvZGVzID0gezQwMDogJ2ludmFsaWQtcmVxdWVzdCcsIDQwMTogJ3VuYXV0aG9yaXplZCcsIDQwNDogJ3Vua25vd24tZGV2aWNlJywKICAgICAgICAgICAgICAgICAgICAgNDA5OiAnZGV2aWNlLWJ1c3knLCA0MjI6ICdjb25maWd1cmF0aW9uLWludmFsaWQnLAogICAgICAgICAgICAgICAgICAgICA1MDI6ICdkZXZpY2UtdW5hdmFpbGFibGUnLCA1MDM6ICdhcGktdW5hdmFpbGFibGUnLCA1MDQ6ICdkZXZpY2UtdGltZW91dCd9CiAgICAgICAgICAgIGlmIGVycm9yLmNvZGUgPT0gNDA5IGFuZCBhdHRlbXB0IDwgMjoKICAgICAgICAgICAgICAgIGVycm9yLmNsb3NlKCkKICAgICAgICAgICAgICAgIHRpbWUuc2xlZXAoLjUpCiAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICBjb2RlID0gY29kZXMuZ2V0KGVycm9yLmNvZGUsICdhcGktZXJyb3InKQogICAgICAgICAgICBlcnJvci5jbG9zZSgpCiAgICAgICAgICAgIHJhaXNlIEFQSUVycm9yKGNvZGUpIGZyb20gTm9uZQogICAgICAgIGV4Y2VwdCAoT1NFcnJvciwgVmFsdWVFcnJvciwgdXJsbGliLmVycm9yLlVSTEVycm9yKToKICAgICAgICAgICAgcmFpc2UgQVBJRXJyb3IoJ2FwaS11bmF2YWlsYWJsZScpIGZyb20gTm9uZQoKCmRlZiBtYWluKCk6CiAgICBwYXJzZXIgPSBhcmdwYXJzZS5Bcmd1bWVudFBhcnNlcihkZXNjcmlwdGlvbj0nQ29udHJvbCBkZXZpY2VzIHRocm91Z2ggdGhlIGxvY2FsIElvVCBBUEknKQogICAgc3ViID0gcGFyc2VyLmFkZF9zdWJwYXJzZXJzKGRlc3Q9J2FjdGlvbicsIHJlcXVpcmVkPVRydWUpCiAgICBzdWIuYWRkX3BhcnNlcignbGlzdCcpCiAgICBmb3IgYWN0aW9uIGluICgnc3RhdHVzJywgJ29uJywgJ29mZicpOgogICAgICAgIHN1Yi5hZGRfcGFyc2VyKGFjdGlvbikuYWRkX2FyZ3VtZW50KCd0YXJnZXQnLCBjaG9pY2VzPVRBUkdFVFMpCiAgICBhcmdzID0gcGFyc2VyLnBhcnNlX2FyZ3MoKQogICAgdHJ5OgogICAgICAgIHByaW50KGpzb24uZHVtcHMocmVxdWVzdChhcmdzLmFjdGlvbiwgZ2V0YXR0cihhcmdzLCAndGFyZ2V0JywgTm9uZSkpKSkKICAgICAgICByZXR1cm4gMAogICAgZXhjZXB0IEFQSUVycm9yIGFzIGVycm9yOgogICAgICAgIHByaW50KGpzb24uZHVtcHMoeydvayc6IEZhbHNlLCAnZXJyb3InOiBlcnJvci5jb2RlfSkpCiAgICAgICAgcmV0dXJuIDEKCgppZiBfX25hbWVfXyA9PSAnX19tYWluX18nOgogICAgcmFpc2UgU3lzdGVtRXhpdChtYWluKCkpCg==
+"""Authenticated local API client, also used by the existing command wrappers."""
+import argparse
+import json
+import os
+from pathlib import Path
+import stat
+import time
+import urllib.error
+import urllib.request
+
+from iot_registry import TARGETS
+
+TOKEN_PATH = Path.home() / '.config/tuya-automation/api.token'
+DEFAULT_URL = 'http://127.0.0.1:8091'
+
+
+class APIError(RuntimeError):
+    def __init__(self, code):
+        self.code = code
+        super().__init__(code)
+
+
+def read_token(path=TOKEN_PATH):
+    with Path(path).open() as stream:
+        info = os.fstat(stream.fileno())
+        if not stat.S_ISREG(info.st_mode) or info.st_uid != os.getuid() or info.st_mode & 0o077:
+            raise ValueError('API token must be private and owned by the current user')
+        token = stream.read().strip()
+    if len(token) < 32 or not token.isascii() or not token.isalnum():
+        raise ValueError('Invalid API token')
+    return token
+
+
+def request(action, target=None, *, base_url=None, token_path=TOKEN_PATH):
+    if action not in ('list', 'status', 'on', 'off'):
+        raise APIError('invalid-action')
+    if action != 'list' and target not in TARGETS:
+        raise APIError('unknown-device')
+    try:
+        token = read_token(token_path)
+    except (OSError, ValueError):
+        raise APIError('api-token-unavailable') from None
+    url = (base_url or os.environ.get('IOT_API_URL', DEFAULT_URL)).rstrip('/')
+    path = '/v1/devices' if action == 'list' else f'/v1/devices/{target}/state'
+    data = json.dumps({'power': action}).encode() if action in ('on', 'off') else None
+    req = urllib.request.Request(url + path, data=data,
+        method='PUT' if data else 'GET',
+        headers={'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json'})
+    opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
+    for attempt in range(3):
+        try:
+            with opener.open(req, timeout=45) as response:
+                result = json.load(response)
+            if not isinstance(result, dict) or result.get('ok') is not True:
+                raise APIError('invalid-api-response')
+            return result
+        except urllib.error.HTTPError as error:
+            # Surface only API error codes, never arbitrary response bodies.
+            codes = {400: 'invalid-request', 401: 'unauthorized', 404: 'unknown-device',
+                     409: 'device-busy', 422: 'configuration-invalid',
+                     502: 'device-unavailable', 503: 'api-unavailable', 504: 'device-timeout'}
+            if error.code == 409 and attempt < 2:
+                error.close()
+                time.sleep(.5)
+                continue
+            code = codes.get(error.code, 'api-error')
+            error.close()
+            raise APIError(code) from None
+        except (OSError, ValueError, urllib.error.URLError):
+            raise APIError('api-unavailable') from None
+
+
+def main():
+    parser = argparse.ArgumentParser(description='Control devices through the local IoT API')
+    sub = parser.add_subparsers(dest='action', required=True)
+    sub.add_parser('list')
+    for action in ('status', 'on', 'off'):
+        sub.add_parser(action).add_argument('target', choices=TARGETS)
+    args = parser.parse_args()
+    try:
+        print(json.dumps(request(args.action, getattr(args, 'target', None))))
+        return 0
+    except APIError as error:
+        print(json.dumps({'ok': False, 'error': error.code}))
+        return 1
+
+
+if __name__ == '__main__':
+    raise SystemExit(main())

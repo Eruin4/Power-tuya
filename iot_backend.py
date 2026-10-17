@@ -1,1 +1,39 @@
-IiIiUHJpdmF0ZSB3b3JrZXIgcHJvY2Vzcy4gT25seSB0aGUgQVBJIHNlcnZlciBpbnZva2VzIGRldmljZSBvcGVyYXRpb25zIGhlcmUuIiIiCmltcG9ydCBhcmdwYXJzZQppbXBvcnQganNvbgppbXBvcnQgbG9nZ2luZwpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKCmZyb20gaW90X3JlZ2lzdHJ5IGltcG9ydCBUQVJHRVRTCmZyb20gbGlnaHRfY29udHJvbCBpbXBvcnQgb3BlcmF0ZV9jZWlsaW5nCmZyb20gdHV5YV9jb250cm9sIGltcG9ydCBERUZBVUxUX0NPTkZJRywgY29udHJvbCwgbG9hZF9jb25maWcKCgpkZWYgbWFpbigpOgogICAgcGFyc2VyID0gYXJncGFyc2UuQXJndW1lbnRQYXJzZXIoKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1jb25maWcnLCB0eXBlPVBhdGgsIGRlZmF1bHQ9REVGQVVMVF9DT05GSUcpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCd0YXJnZXQnLCBjaG9pY2VzPVRBUkdFVFMpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCdhY3Rpb24nLCBjaG9pY2VzPSgnc3RhdHVzJywgJ29uJywgJ29mZicpKQogICAgYXJncyA9IHBhcnNlci5wYXJzZV9hcmdzKCkKICAgIGxvZ2dpbmcuZGlzYWJsZShsb2dnaW5nLkNSSVRJQ0FMKQogICAgZ3JvdXAgPSBUQVJHRVRTW2FyZ3MudGFyZ2V0XVswXQogICAgdHJ5OgogICAgICAgIGl0ZW0gPSBsb2FkX2NvbmZpZyhhcmdzLmNvbmZpZywgZ3JvdXApCiAgICBleGNlcHQgKE9TRXJyb3IsIFZhbHVlRXJyb3IsIFR5cGVFcnJvcik6CiAgICAgICAgcHJpbnQoanNvbi5kdW1wcyh7J29rJzogRmFsc2UsICdlcnJvcic6ICdjb25maWd1cmF0aW9uLWludmFsaWQnfSkpCiAgICAgICAgcmV0dXJuIDEKICAgIHRyeToKICAgICAgICBpbXBvcnQgdGlueXR1eWEKICAgICAgICBpZiBncm91cCA9PSAnY2VpbGluZy1zd2l0Y2gnOgogICAgICAgICAgICByZXN1bHQgPSBvcGVyYXRlX2NlaWxpbmcoaXRlbSwgYXJncy50YXJnZXQsIGFyZ3MuYWN0aW9uLCB0aW55dHV5YS5PdXRsZXREZXZpY2UpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgcmVzdWx0ID0gY29udHJvbChpdGVtLCBhcmdzLmFjdGlvbiwgdGlueXR1eWEuT3V0bGV0RGV2aWNlKQogICAgICAgIHByaW50KGpzb24uZHVtcHMoeyoqcmVzdWx0LCAnb2snOiBUcnVlLCAndGFyZ2V0JzogYXJncy50YXJnZXR9KSkKICAgICAgICByZXR1cm4gMAogICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICBwcmludChqc29uLmR1bXBzKHsnb2snOiBGYWxzZSwgJ2Vycm9yJzogJ2RldmljZS11bmF2YWlsYWJsZSd9KSkKICAgICAgICByZXR1cm4gMQoKCmlmIF9fbmFtZV9fID09ICdfX21haW5fXyc6CiAgICByYWlzZSBTeXN0ZW1FeGl0KG1haW4oKSkK
+"""Private worker process. Only the API server invokes device operations here."""
+import argparse
+import json
+import logging
+from pathlib import Path
+
+from iot_registry import TARGETS
+from light_control import operate_ceiling
+from tuya_control import DEFAULT_CONFIG, control, load_config
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--config', type=Path, default=DEFAULT_CONFIG)
+    parser.add_argument('target', choices=TARGETS)
+    parser.add_argument('action', choices=('status', 'on', 'off'))
+    args = parser.parse_args()
+    logging.disable(logging.CRITICAL)
+    group = TARGETS[args.target][0]
+    try:
+        item = load_config(args.config, group)
+    except (OSError, ValueError, TypeError):
+        print(json.dumps({'ok': False, 'error': 'configuration-invalid'}))
+        return 1
+    try:
+        import tinytuya
+        if group == 'ceiling-switch':
+            result = operate_ceiling(item, args.target, args.action, tinytuya.OutletDevice)
+        else:
+            result = control(item, args.action, tinytuya.OutletDevice)
+        print(json.dumps({**result, 'ok': True, 'target': args.target}))
+        return 0
+    except Exception:
+        print(json.dumps({'ok': False, 'error': 'device-unavailable'}))
+        return 1
+
+
+if __name__ == '__main__':
+    raise SystemExit(main())
